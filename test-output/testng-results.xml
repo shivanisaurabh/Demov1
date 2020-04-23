@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80269" started-at="2020-04-23T19:09:11 IST" finished-at="2020-04-23T19:10:32 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="34490" started-at="2020-04-23T19:09:11 IST" finished-at="2020-04-23T19:09:46 IST">
+      <class name="sampleDemo.GridDemo">
+        <test-method status="PASS" signature="intialization(java.lang.String)[pri:0, instance:sampleDemo.GridDemo@1877ab81]" name="intialization" is-config="true" duration-ms="13217" started-at="2020-04-23T19:09:11 IST" finished-at="2020-04-23T19:09:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="test_site()[pri:0, instance:sampleDemo.GridDemo@1877ab81]" name="test_site" duration-ms="19731" started-at="2020-04-23T19:09:25 IST" finished-at="2020-04-23T19:09:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_site -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sampleDemo.GridDemo@1877ab81]" name="tearDown" is-config="true" duration-ms="1438" started-at="2020-04-23T19:09:44 IST" finished-at="2020-04-23T19:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sampleDemo.GridDemo -->
+    </test> <!-- ChromeTest -->
+    <test name="FireFoxTest" duration-ms="80269" started-at="2020-04-23T19:09:11 IST" finished-at="2020-04-23T19:10:32 IST">
+      <class name="sampleDemo.GridDemo">
+        <test-method status="PASS" signature="intialization(java.lang.String)[pri:0, instance:sampleDemo.GridDemo@631330c]" name="intialization" is-config="true" duration-ms="60161" started-at="2020-04-23T19:09:11 IST" finished-at="2020-04-23T19:10:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="test_site()[pri:0, instance:sampleDemo.GridDemo@631330c]" name="test_site" duration-ms="18008" started-at="2020-04-23T19:10:12 IST" finished-at="2020-04-23T19:10:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_site -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sampleDemo.GridDemo@631330c]" name="tearDown" is-config="true" duration-ms="2007" started-at="2020-04-23T19:10:30 IST" finished-at="2020-04-23T19:10:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sampleDemo.GridDemo -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
